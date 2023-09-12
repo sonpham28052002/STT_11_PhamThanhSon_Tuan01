@@ -8,5 +8,7 @@ var interval= setInterval(function () {
 
 again.addEventListener("click", ()=>{
     again.style.width = "15rem";
+    again.style.marginLeft = "0px";
+    again.style.marginTop = "0px";
     clearInterval(interval);
 });
